@@ -1,9 +1,7 @@
-package main.java.com.myedulink.backend.model;
+package com.myedulink.backend.model;
 
 import jakarta.persistence.*;
-import java.sql.Timestamp;
-import java.util.*;
-import java.util.UUID;
+import jakarta.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "roles")

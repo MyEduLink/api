@@ -1,8 +1,7 @@
-package main.java.com.myedulink.backend.model;
+package com.myedulink.backend.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

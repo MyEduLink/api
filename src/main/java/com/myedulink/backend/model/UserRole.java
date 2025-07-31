@@ -1,7 +1,8 @@
-package main.java.com.myedulink.backend.model;
+package com.myedulink.backend.model;
+
+import java.util.UUID;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "user_roles")
